@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotstar Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+</head>
+<body>
+    <nav class="navs">
+        <img src="images/logo.png" class="brands" alt = "logo"/>
+        <ul class="navlinks">
+            <li class="navobjects"><a href="#">TV</a></li>
+            <li class="navobjects"><a href="#">Movies</a></li>
+            <li class="navobjects"><a href="#">Sports</a></li>
+            <li class="navobjects"><a href="#">Premium</a></li>
+        </ul>
+        <div class="rightc">
+            <input type="text" class="search" placeholder="search">
+            <button class = "btn">subscribe</button>
+            <a href="#" class="logins">Login</a>
+        </div>
+    </nav>
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">The Avengers</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla asperiores consequuntur veniam provident explicabo.</p>
+                </div>
+                <img src="images/avengers1.jpg">
+            </div> -->
+        </div>
+    </div>
+    <div class="videocardcr">
+        <div class="videocard">
+            <img src="images/disney.png" class="videocardimg" alt="disney">
+            <video src="videos/disney.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="videocard">
+            <img src="images/marvel.png" class="videocardimg" alt="disney">
+            <video src="videos/marvel.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="videocard">
+            <img src="images/star-wars.png" class="videocardimg" alt="disney">
+            <video src="videos/star-war.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="videocard">
+            <img src="images/pixar.PNG" class="videocardimg" alt="disney">
+            <video src="videos/pixar.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="videocard">
+            <img src="images/geographic.PNG" class="videocardimg" alt="disney">
+            <video src="videos/geographic.mp4" muted loop class="videos"></video>
+        </div>
+    </div>
+
+    <h1 class = "title">Top Picks For You</h1>
+    <div class="movielist">
+        <button class="prevbtn"><img src="images/pre.png" alt="prev"></button>
+        <button class="nxtbtn"><img src="images/nxt.png" alt="prev"></button>
+        <div class="cardcontain">
+            <div class="card">
+                <img src="images/poster1.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">the fault in our stars</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="images/poster2.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Batman Begins</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster3.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Jungle cruise</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster4.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Venom</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster5.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">alice in the wonderland</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster6.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">goodluck jerry</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster7.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">neerja</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster8.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">the colony</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster9.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">luca</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster10.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">jagame thandhiram</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class = "title">Popular Movies</h1>
+    <div class="movielist">
+        <button class="prevbtn"><img src="images/pre.png" alt="prev"></button>
+        <button class="nxtbtn"><img src="images/nxt.png" alt="prev"></button>
+        <div class="cardcontain">
+            <div class="card">
+                <img src="images/poster11.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">dil bechara</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="images/poster12.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">the big bull</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster13.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">atrangi re</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster14.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">bhaag milkha bhaag</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster15.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">searching</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster16.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">percy jackson</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster17.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">lift</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster18.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">chalaang</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster19.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">super 8</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class = "title">Popular In Sports</h1>
+    <div class="movielist">
+        <button class="prevbtn"><img src="images/pre.png" alt="prev"></button>
+        <button class="nxtbtn"><img src="images/nxt.png" alt="prev"></button>
+        <div class="cardcontain">
+            <div class="card">
+                <img src="images/poster20.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">T20 Cricket</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="images/poster21.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Premier League Football</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster22.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Man City vs Man United</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster23.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">India vs Bangladesh</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster24.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">sultan azlan shah cup 2017</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster25.png" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">women's hockey</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster26.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Football Match</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster27.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Women's Singles Badminton</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/poster28.jpg" class="cardimg" alt="poster1">
+                <div class="card-cont">
+                    <h2 class="Mname">Centre tennis court</h2>
+                    <h6 class = "desc">Lorem ipsum dolor sit amet.</h6>
+                    <button class = "watchbtn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
